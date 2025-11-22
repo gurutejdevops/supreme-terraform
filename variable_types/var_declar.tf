@@ -15,3 +15,9 @@ variable "sub_topic" {}
 output "print_values1" {
     value = "The ${var.name}, ${var.topic}, ${var.sub_topic}"
 }
+
+variable "trainer" {}
+
+output "print_trainer" {
+    value = var.trainer
+}
