@@ -26,3 +26,4 @@ variable "map_var" {
 
 output "print_map" {
     value = "The name is ${var.map_var["name"]}, number is ${var.map_var["number"]}, yes is ${var.map_var["yes"]}"
+}
