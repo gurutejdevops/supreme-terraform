@@ -21,3 +21,9 @@ variable "trainer" {}
 output "print_trainer" {
     value = var.trainer
 }
+
+variable "fav_cloud" {}
+
+output "print_fav_cloud" {
+    value = var.fav_cloud
+}
