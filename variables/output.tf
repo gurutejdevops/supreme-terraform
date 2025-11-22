@@ -13,3 +13,4 @@ output "print_sample" {
 output "print_sample1" {
     value = "The value of variable sample1 is ${var.sample1}"
 }
+
